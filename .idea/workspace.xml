@@ -31,16 +31,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003434ae-947f-41ed-92c2-20b4ce6cfb35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/devtypes-com.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gatsby-starter-foundation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/npm-publish.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/blog-list-home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog-list-home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/index-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index-page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/site.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/site.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/stackrole.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="ts.external.directory.path" value="C:\code\private\devtypes-com\node_modules\typescript\lib" />
   </component>
   <component name="RunManager">
     <configuration name="npm run develop" type="js.build_tools.npm">
@@ -86,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595693563277</updated>
-      <workItem from="1595693572804" duration="244000" />
+      <workItem from="1595693572804" duration="870000" />
     </task>
     <servers />
   </component>
@@ -109,25 +112,29 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595693622075" />
-    <state width="1877" height="395" key="GridCell.Tab.0.bottom" timestamp="1595693729981">
+    <state width="1877" height="395" key="GridCell.Tab.0.bottom" timestamp="1595694417899">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595693729981" />
-    <state width="1877" height="395" key="GridCell.Tab.0.center" timestamp="1595693729980">
+    <state width="1877" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595694417899" />
+    <state width="1877" height="395" key="GridCell.Tab.0.center" timestamp="1595694417899">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595693729980" />
-    <state width="1877" height="395" key="GridCell.Tab.0.left" timestamp="1595693729980">
+    <state width="1877" height="395" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595694417899" />
+    <state width="1877" height="395" key="GridCell.Tab.0.left" timestamp="1595694417899">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595693729980" />
-    <state width="1877" height="395" key="GridCell.Tab.0.right" timestamp="1595693729980">
+    <state width="1877" height="395" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595694417899" />
+    <state width="1877" height="395" key="GridCell.Tab.0.right" timestamp="1595694417899">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595693729980" />
-    <state x="166" y="21" width="1504" height="912" key="find.popup" timestamp="1595693815442">
+    <state width="1877" height="395" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595694417899" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1595694446017">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="166" y="21" width="1504" height="912" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1595693815442" />
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1595694446017" />
+    <state x="166" y="21" width="1504" height="912" key="find.popup" timestamp="1595694409179">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="166" y="21" width="1504" height="912" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1595694409179" />
   </component>
 </project>
