@@ -1,21 +1,21 @@
-import React from "react";
-import { Link, graphql } from "gatsby";
-import Img from "gatsby-image";
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri";
+import React from 'react';
+import { Link, graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import { RiArrowRightLine, RiArrowLeftLine } from 'react-icons/ri';
 
-import Layout from "../components/layout/layout";
-import SEO from "../components/seo";
+import Layout from '../components/layout/layout';
+import SEO from '../components/seo';
 
 const Pagination = props => (
   <div className="pagination -post">
     <ul>
-      {props.previous && props.previous.frontmatter.template === "blog-post" && (
+      {props.previous && props.previous.frontmatter.template === 'blog-post' && (
         <li>
           <Link to={props.previous.frontmatter.slug} rel="prev">
             <p>
               <span className="icon -left">
-                <RiArrowLeftLine />
-              </span>{" "}
+                <RiArrowLeftLine/>
+              </span>{' '}
               Previous
             </p>
             <span className="page-title">
@@ -24,13 +24,13 @@ const Pagination = props => (
           </Link>
         </li>
       )}
-      {props.next && props.next.frontmatter.template === "blog-post" && (
+      {props.next && props.next.frontmatter.template === 'blog-post' && (
         <li>
           <Link to={props.next.frontmatter.slug} rel="next">
             <p>
-              Next{" "}
+              Next{' '}
               <span className="icon -right">
-                <RiArrowRightLine />
+                <RiArrowRightLine/>
               </span>
             </p>
             <span className="page-title">{props.next.frontmatter.title}</span>
@@ -46,7 +46,7 @@ const Post = ({ data, pageContext }) => {
   const { frontmatter, html, excerpt } = markdownRemark;
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.fluid
-    : "";
+    : '';
   const { previous, next } = pageContext;
 
   let props = {
@@ -75,11 +75,11 @@ const Post = ({ data, pageContext }) => {
               fluid={Image}
               objectFit="cover"
               objectPosition="50% 50%"
-              alt={frontmatter.title + " - Featured image"}
+              alt={frontmatter.title + ' - Featured image'}
               className="featured-image"
             />
           ) : (
-            ""
+            ''
           )}
         </header>
 

@@ -1,15 +1,15 @@
-import React from "react";
-import { Link } from "gatsby";
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import React from 'react';
+import { Link } from 'gatsby';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 const MenuItems = [
   {
-    path: "/blog",
-    title: "Blog"
+    path: '/blog',
+    title: 'Blog'
   },
   {
-    path: "/about",
-    title: "About"
+    path: '/about',
+    title: 'About'
   }
 ];
 
@@ -43,13 +43,13 @@ class Navigation extends React.Component {
       <nav className="site-navigation">
         <button
           onClick={this.handleToggleClick}
-          className={"menu-trigger" + (this.state.showMenu ? " is-active" : "")}
+          className={'menu-trigger' + (this.state.showMenu ? ' is-active' : '')}
         >
           <div className="icon-menu-line">
-            <RiMenu3Line />
+            <RiMenu3Line/>
           </div>
           <div className="icon-menu-close">
-            <RiCloseLine />
+            <RiCloseLine/>
           </div>
         </button>
         <ul>{listMenuItems}</ul>

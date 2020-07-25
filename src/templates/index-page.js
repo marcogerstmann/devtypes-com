@@ -1,10 +1,10 @@
-import React from "react";
-import { graphql, Link } from "gatsby";
-import { RiArrowRightSLine } from "react-icons/ri";
+import React from 'react';
+import { graphql, Link } from 'gatsby';
+import { RiArrowRightSLine } from 'react-icons/ri';
 
-import Layout from "../components/layout/layout";
-import BlogListHome from "../components/blog/blog-list-home";
-import SEO from "../components/seo";
+import Layout from '../components/layout/layout';
+import BlogListHome from '../components/blog/blog-list-home';
+import SEO from '../components/seo';
 
 export const pageQuery = graphql`
   query HomeQuery($id: String!) {
@@ -27,7 +27,7 @@ const HomePage = ({ data }) => {
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
-      <SEO />
+      <SEO/>
       <div className="home-banner grids col-1 sm-2">
         <div>
           <h1 className="title">{frontmatter.title}</h1>
@@ -38,12 +38,12 @@ const HomePage = ({ data }) => {
           <Link to={frontmatter.cta.ctaLink} className="button">
             {frontmatter.cta.ctaText}
             <span className="icon -right">
-              <RiArrowRightSLine />
+              <RiArrowRightSLine/>
             </span>
           </Link>
         </div>
       </div>
-      <BlogListHome />
+      <BlogListHome/>
     </Layout>
   );
 };

@@ -1,10 +1,10 @@
-import React from "react";
-import { Link, graphql } from "gatsby";
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri";
+import React from 'react';
+import { Link, graphql } from 'gatsby';
+import { RiArrowRightLine, RiArrowLeftLine } from 'react-icons/ri';
 
-import Layout from "../components/layout/layout";
-import PostCard from "../components/blog/post-card";
-import SEO from "../components/seo";
+import Layout from '../components/layout/layout';
+import PostCard from '../components/blog/post-card';
+import SEO from '../components/seo';
 
 export const blogListQuery = graphql`
   query blogListQuery($skip: Int!, $limit: Int!) {
@@ -43,8 +43,8 @@ const Pagination = props => (
         <li>
           <Link to={props.prevPage} rel="prev">
             <span className="icon -left">
-              <RiArrowLeftLine />
-            </span>{" "}
+              <RiArrowLeftLine/>
+            </span>{' '}
             Previous
           </Link>
         </li>
@@ -52,8 +52,8 @@ const Pagination = props => (
       {Array.from({ length: props.numPages }, (_, i) => (
         <li key={`pagination-number${i + 1}`}>
           <Link
-            to={`${props.blogSlug}${i === 0 ? "" : i + 1}`}
-            className={props.currentPage === i + 1 ? "is-active num" : "num"}
+            to={`${props.blogSlug}${i === 0 ? '' : i + 1}`}
+            className={props.currentPage === i + 1 ? 'is-active num' : 'num'}
           >
             {i + 1}
           </Link>
@@ -62,9 +62,9 @@ const Pagination = props => (
       {!props.isLast && (
         <li>
           <Link to={props.nextPage} rel="next">
-            Next{" "}
+            Next{' '}
             <span className="icon -right">
-              <RiArrowRightLine />
+              <RiArrowRightLine/>
             </span>
           </Link>
         </li>
@@ -72,11 +72,12 @@ const Pagination = props => (
     </ul>
   </div>
 );
+
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props;
     const { currentPage, numPages } = this.props.pageContext;
-    const blogSlug = "/blog/";
+    const blogSlug = '/blog/';
     const isFirst = currentPage === 1;
     const isLast = currentPage === numPages;
     const prevPage =
@@ -87,7 +88,7 @@ class BlogIndex extends React.Component {
 
     const posts = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
-      .map(edge => <PostCard key={edge.node.id} data={edge.node} />);
+      .map(edge => <PostCard key={edge.node.id} data={edge.node}/>);
     let props = {
       isFirst,
       prevPage,
@@ -101,9 +102,9 @@ class BlogIndex extends React.Component {
     return (
       <Layout className="blog-page">
         <SEO
-          title={"Blog — Page " + currentPage + " of " + numPages}
+          title={'Blog — Page ' + currentPage + ' of ' + numPages}
           description={
-            "Stackrole base blog page " + currentPage + " of " + numPages
+            'Stackrole base blog page ' + currentPage + ' of ' + numPages
           }
         />
         <h1>Blog</h1>

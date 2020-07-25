@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "gatsby";
-import Img from "gatsby-image";
+import React from 'react';
+import { Link } from 'gatsby';
+import Img from 'gatsby-image';
 
 const PostCard = ({ data }) => (
   <article className="post-card">
@@ -10,12 +10,12 @@ const PostCard = ({ data }) => (
           fluid={data.frontmatter.featuredImage.childImageSharp.fluid}
           objectFit="cover"
           objectPosition="50% 50%"
-          alt={data.frontmatter.title + " - Featured image"}
+          alt={data.frontmatter.title + ' - Featured image'}
           className="featured-image"
         />
       </Link>
     ) : (
-      ""
+      ''
     )}
     <div className="post-content">
       <h2 className="title">

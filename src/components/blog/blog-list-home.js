@@ -1,22 +1,22 @@
-import React from "react";
-import { Link, StaticQuery, graphql } from "gatsby";
-import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri";
+import React from 'react';
+import { Link, StaticQuery, graphql } from 'gatsby';
+import { RiArrowDownLine, RiArrowRightSLine } from 'react-icons/ri';
 
-import PostCard from "./post-card";
+import PostCard from './post-card';
 
 const PostMaker = ({ data }) => (
   <section className="home-posts">
     <h2>
-      Latest in <strong>Blog</strong>{" "}
+      Latest in <strong>Blog</strong>{' '}
       <span className="icon -right">
-        <RiArrowDownLine />
+        <RiArrowDownLine/>
       </span>
     </h2>
     <div className="grids col-1 sm-2 lg-3">{data}</div>
     <Link className="button" to="/blog">
       See more
       <span className="icon -right">
-        <RiArrowRightSLine />
+        <RiArrowRightSLine/>
       </span>
     </Link>
   </section>
@@ -57,8 +57,8 @@ export default function BlogListHome() {
       render={data => {
         const posts = data.allMarkdownRemark.edges
           .filter(edge => !!edge.node.frontmatter.date)
-          .map(edge => <PostCard key={edge.node.id} data={edge.node} />);
-        return <PostMaker data={posts} />;
+          .map(edge => <PostCard key={edge.node.id} data={edge.node}/>);
+        return <PostMaker data={posts}/>;
       }}
     />
   );

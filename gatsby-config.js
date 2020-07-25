@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
-const settings = require("./src/util/site.json")
+const settings = require('./src/util/site.json');
 
 module.exports = {
   siteMetadata: settings.meta,
@@ -38,14 +38,14 @@ module.exports = {
               showCaptions: true,
               linkImagesToOriginal: false,
               tracedSVG: true,
-              loading: "lazy"
+              loading: 'lazy'
             }
           },
           `gatsby-remark-responsive-iframe`,
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              classPrefix: "language-",
+              classPrefix: 'language-',
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
@@ -74,6 +74,6 @@ module.exports = {
         icon: `static/assets/devtypes-logo.png`
       }
     },
-    "gatsby-plugin-offline"
+    'gatsby-plugin-offline'
   ]
-}
+};
