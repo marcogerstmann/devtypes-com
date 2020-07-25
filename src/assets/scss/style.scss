@@ -104,15 +104,11 @@
 }
 
 .site-logo {
-  font-weight: bold;
+  font-size: 2rem;
 
   a {
     color: var(--header-brand-color);
     text-decoration: none;
-  }
-
-  @media (max-width: $breakpoint-lg) {
-    font-size: 20px;
   }
 }
 
