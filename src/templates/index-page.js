@@ -29,10 +29,10 @@ const HomePage = ({ data }) => {
     <Layout>
       <SEO/>
       <div className="row">
-        <div className="col-8">
+        <div className="col-md-8">
           <BlogListHome/>
         </div>
-        <div className="col-4">
+        <div className="col-md-4">
           <div className="home-banner">
             <h1 className="title">{frontmatter.title}</h1>
             <div
