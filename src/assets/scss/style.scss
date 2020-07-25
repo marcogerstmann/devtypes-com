@@ -1,6 +1,5 @@
 @import "theme-variables";
 @import "defaults";
-@import "lib/css-grid-utility";
 
 .primary-container main {
   min-height: calc(100vh - 60px - 81px);
@@ -157,10 +156,6 @@
 }
 
 .home-posts {
-  .grids {
-    padding-bottom: 30px;
-  }
-
   padding-bottom: 100px;
 }
 
