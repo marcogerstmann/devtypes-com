@@ -31,6 +31,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003434ae-947f-41ed-92c2-20b4ce6cfb35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-to-gh-pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-to-gh-pages.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595693563277</updated>
       <workItem from="1595693572804" duration="870000" />
-      <workItem from="1595705448676" duration="2578000" />
+      <workItem from="1595705448676" duration="2983000" />
     </task>
     <servers />
   </component>
