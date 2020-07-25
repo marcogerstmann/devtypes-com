@@ -28,22 +28,26 @@ const HomePage = ({ data }) => {
   return (
     <Layout>
       <SEO/>
-      <div className="home-banner grids col-1 sm-2">
-        <div>
-          <h1 className="title">{frontmatter.title}</h1>
-          <div
-            className="description"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-          <Link to={frontmatter.cta.ctaLink} className="button">
-            {frontmatter.cta.ctaText}
-            <span className="icon -right">
+      <div className="row">
+        <div className="col-8">
+          <BlogListHome/>
+        </div>
+        <div className="col-4">
+          <div className="home-banner">
+            <h1 className="title">{frontmatter.title}</h1>
+            <div
+              className="description"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
+            <Link to={frontmatter.cta.ctaLink} className="button">
+              {frontmatter.cta.ctaText}
+              <span className="icon -right">
               <RiArrowRightSLine/>
             </span>
-          </Link>
+            </Link>
+          </div>
         </div>
       </div>
-      <BlogListHome/>
     </Layout>
   );
 };

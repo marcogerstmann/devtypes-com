@@ -12,7 +12,7 @@ const PostMaker = ({ data }) => (
         <RiArrowDownLine/>
       </span>
     </h2>
-    <div className="grids col-1 sm-2 lg-3">{data}</div>
+    <div>{data}</div>
     <Link className="button" to="/blog">
       See more
       <span className="icon -right">
