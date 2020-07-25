@@ -31,23 +31,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003434ae-947f-41ed-92c2-20b4ce6cfb35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog/blog-list-home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog/blog-list-home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog/post-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog/post-card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/logo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/thanks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/thanks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/about-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/about-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/contact-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/contact-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/index-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/contact.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/thanks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/contact-page.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,22 +121,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595695687829" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1595704494508">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1595704643893">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595704494508" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1595704494508">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595704643893" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1595704643893">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595704494508" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1595704494507">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595704643893" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1595704643892">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595704494507" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1595704494508">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595704643892" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1595704643893">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595704494508" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595704643893" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1595697262436">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -158,5 +145,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="166" y="21" width="1504" height="912" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1595703344741" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1595704624183">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1595704624183" />
   </component>
 </project>
