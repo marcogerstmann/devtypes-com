@@ -2,8 +2,8 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 
-import Layout from "../components/layout"
-import PostCard from "../components/post-card"
+import Layout from "../components/layout/layout"
+import PostCard from "../components/blog/post-card"
 import SEO from "../components/seo"
 
 export const blogListQuery = graphql`

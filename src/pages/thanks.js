@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { RiArrowLeftSLine, RiCheckboxCircleLine } from "react-icons/ri"
 
 import SEO from "../components/seo"
-import Layout from "../components/layout"
+import Layout from "../components/layout/layout"
 
 const Thanks = () => (
   <Layout className="thanks-page">

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { RiArrowLeftSLine, RiBugLine, RiSkullLine } from "react-icons/ri"
 
 import SEO from "../components/seo"
-import Layout from "../components/layout"
+import Layout from "../components/layout/layout"
 
 const NotFound = () => (
   <Layout className="not-found-page">
