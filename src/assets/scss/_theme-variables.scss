@@ -12,19 +12,17 @@ $breakpoint-xl: 1200px;
   --font-size-small: 12px;
 
   --primary-color: #5c2941;
-  --header-bg: #5c2941;
 
-  --home-link-color: #a1613f;
-  --home-link-hover-color: var(--primary-color);
+  --header-brand-color: #222;
+  --header-nav-color: #000;
+  --header-nav-hover-color: #999;
+
+  --link-color-main: #a1613f;
+  --link-color-main-hover: var(--primary-color);
+  --link-color-post: #0f070b;
 
   --button-color: #e5c3d3;
   --button-alternate-color: #5c2941;
 
-  --post-link-color: #0f070b;
-
-  --nav-link-hover-bg: #111;
   --text-color-meta: rgba(0, 0, 0, 0.5);
-
-  --label-text: rgba(0, 0, 0, 0.5);
-  --input-focus-border: #83aaac;
 }

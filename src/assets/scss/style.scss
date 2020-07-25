@@ -6,11 +6,11 @@
 }
 
 .site-header {
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  background: var(--header-bg);
   padding: 30px 20px;
 }
 
@@ -27,11 +27,11 @@
   }
 
   a {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--header-nav-color);
     text-decoration: none;
 
     &:hover {
-      color: rgba(255, 255, 255, 0.8);
+      color: var(--header-nav-hover-color);
     }
   }
 
@@ -52,6 +52,7 @@
   @media (max-width: $breakpoint-lg) {
     .menu-trigger,
     .icon-menu-line {
+      color: black;
       display: flex;
     }
 
@@ -106,12 +107,8 @@
   font-weight: bold;
 
   a {
-    color: #fff;
+    color: var(--header-brand-color);
     text-decoration: none;
-
-    &:hover {
-      color: #fff;
-    }
   }
 
   @media (max-width: $breakpoint-lg) {
@@ -182,7 +179,7 @@
     font-weight: 600;
 
     a {
-      color: var(--post-link-color);
+      color: var(--link-color-post);
     }
   }
 
