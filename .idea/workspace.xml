@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="003434ae-947f-41ed-92c2-20b4ce6cfb35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/devtypes-com.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gatsby-starter-foundation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/site.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/site.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/stackrole.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fBZh7efrh5DN8bPkc0w6EFo3Sf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="npm run develop" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="develop" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="003434ae-947f-41ed-92c2-20b4ce6cfb35" name="Default Changelist" comment="" />
+      <created>1595693563277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595693563277</updated>
+      <workItem from="1595693572804" duration="244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595693622075">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595693622075" />
+    <state width="1877" height="395" key="GridCell.Tab.0.bottom" timestamp="1595693729981">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595693729981" />
+    <state width="1877" height="395" key="GridCell.Tab.0.center" timestamp="1595693729980">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595693729980" />
+    <state width="1877" height="395" key="GridCell.Tab.0.left" timestamp="1595693729980">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595693729980" />
+    <state width="1877" height="395" key="GridCell.Tab.0.right" timestamp="1595693729980">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="395" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595693729980" />
+    <state x="166" y="21" width="1504" height="912" key="find.popup" timestamp="1595693815442">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="166" y="21" width="1504" height="912" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1595693815442" />
+  </component>
+</project>

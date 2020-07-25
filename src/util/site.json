@@ -1,11 +1,10 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "DevTypes",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "description": "Successful communication for software developer teams",
+    "siteUrl": "https://www.devtypes.com",
+    "image": "/assets/devtypes-logo.png"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
