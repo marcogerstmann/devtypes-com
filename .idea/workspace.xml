@@ -31,21 +31,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003434ae-947f-41ed-92c2-20b4ce6cfb35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/blog-list-home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog/blog-list-home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog/post-card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/pages/side-widget-about-devtypes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/widgets/side-widget-about-devtypes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/thanks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/thanks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/about-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/about-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/contact-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/contact-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/index-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/about/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fBZh7efrh5DN8bPkc0w6EFo3Sf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -74,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\private\devtypes-com\src\content\pages\about" />
       <recent name="C:\code\private\devtypes-com\src\content\widgets" />
       <recent name="C:\code\private\devtypes-com\src\components\blog" />
       <recent name="C:\code\private\devtypes-com\src\components\layout" />
@@ -128,29 +121,29 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595695687829" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1595700503992">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1595703164526">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595700503992" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1595700503992">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595703164526" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1595703164525">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595700503992" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1595700503992">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595703164525" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1595703164525">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595700503992" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1595700503992">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595703164525" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1595703164525">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595700503992" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595703164525" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1595697262436">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1595697262436" />
-    <state x="166" y="21" width="1504" height="912" key="find.popup" timestamp="1595700620133">
+    <state x="166" y="21" width="1504" height="912" key="find.popup" timestamp="1595703344741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="166" y="21" width="1504" height="912" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1595700620133" />
+    <state x="166" y="21" width="1504" height="912" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1595703344741" />
   </component>
 </project>
