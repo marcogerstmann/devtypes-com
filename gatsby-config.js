@@ -7,6 +7,7 @@
 const settings = require('./src/util/site.json');
 
 module.exports = {
+  pathPrefix: "/devtypes-com",
   siteMetadata: settings.meta,
   plugins: [
     {
