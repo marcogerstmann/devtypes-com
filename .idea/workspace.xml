@@ -32,16 +32,10 @@
   <component name="ChangeListManager">
     <list default="true" id="003434ae-947f-41ed-92c2-20b4ce6cfb35" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/alex-zr48yvupk04-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/christian-chen-kpydzvywfqg-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/royal-mail-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/stackrole-spin-circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/team-cats.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/twitter-header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/vanessa-bucceri-gdirwiyama8-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/side-widget-about-devtypes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/index-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,29 +110,29 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595695687829" />
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1595695687866">
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1595696847791">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595695687866" />
-    <state width="1877" height="344" key="GridCell.Tab.0.center" timestamp="1595695687866">
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1595696847791" />
+    <state width="1877" height="344" key="GridCell.Tab.0.center" timestamp="1595696847790">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595695687866" />
-    <state width="1877" height="344" key="GridCell.Tab.0.left" timestamp="1595695687866">
+    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1595696847790" />
+    <state width="1877" height="344" key="GridCell.Tab.0.left" timestamp="1595696847790">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595695687866" />
-    <state width="1877" height="344" key="GridCell.Tab.0.right" timestamp="1595695687866">
+    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1595696847790" />
+    <state width="1877" height="344" key="GridCell.Tab.0.right" timestamp="1595696847791">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595695687866" />
+    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1595696847791" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1595694446017">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1595694446017" />
-    <state x="166" y="21" width="1504" height="912" key="find.popup" timestamp="1595695668249">
+    <state x="166" y="21" width="1504" height="912" key="find.popup" timestamp="1595696730936">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="166" y="21" width="1504" height="912" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1595695668249" />
+    <state x="166" y="21" width="1504" height="912" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1595696730936" />
   </component>
 </project>
