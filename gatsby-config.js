@@ -13,15 +13,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets/`,
-        name: `assets`,
-      },
+        name: `assets`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/content/`,
-        name: `content`,
-      },
+        name: `content`
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -38,8 +38,8 @@ module.exports = {
               showCaptions: true,
               linkImagesToOriginal: false,
               tracedSVG: true,
-              loading: "lazy",
-            },
+              loading: "lazy"
+            }
           },
           `gatsby-remark-responsive-iframe`,
           {
@@ -53,11 +53,11 @@ module.exports = {
               // By default the HTML entities <>&'" are escaped.
               // Add additional HTML escapes by providing a mapping
               // of HTML entities and their escape value IE: { '}': '&#123;' }
-              escapeEntities: {},
-            },
-          },
-        ],
-      },
+              escapeEntities: {}
+            }
+          }
+        ]
+      }
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
@@ -71,9 +71,9 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `static/assets/devtypes-logo.png`,
-      },
+        icon: `static/assets/devtypes-logo.png`
+      }
     },
-    'gatsby-plugin-offline',
-  ],
+    "gatsby-plugin-offline"
+  ]
 }

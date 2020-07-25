@@ -20,12 +20,12 @@ const SEO = ({ title, description, image, article }) => {
     title: title || defaultTitle,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
-    url: `${siteUrl}${pathname}`,
+    url: `${siteUrl}${pathname}`
   }
 
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
-      <html lang="en-US"/>
+      <html lang="en-US" />
       <link rel="alternate" href={seo.url} hreflang="en-us" />
       <link rel="alternate" href={seo.url} hreflang="en" />
       <link rel="alternate" href={seo.url} hreflang="x-default" />
@@ -63,14 +63,14 @@ SEO.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.string,
-  article: PropTypes.bool,
+  article: PropTypes.bool
 }
 
 SEO.defaultProps = {
   title: null,
   description: null,
   image: null,
-  article: false,
+  article: false
 }
 
 const query = graphql`

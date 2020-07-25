@@ -9,9 +9,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const result = await graphql(`
     {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ) {
+      allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
         edges {
           node {
             id
@@ -49,8 +47,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       context: {
         id,
         previous,
-        next,
-      },
+        next
+      }
     })
   })
 
@@ -66,11 +64,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         limit: postsPerPage,
         skip: i * postsPerPage,
         numPages,
-        currentPage: i + 1,
-      },
+        currentPage: i + 1
+      }
     })
   })
-
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -80,7 +77,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: slug,
+      value: slug
     })
   }
 }
