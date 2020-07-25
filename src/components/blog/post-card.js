@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
-import Img from "gatsby-image"
+import React from "react";
+import { Link } from "gatsby";
+import Img from "gatsby-image";
 
 const PostCard = ({ data }) => (
   <article className="post-card">
@@ -26,6 +26,6 @@ const PostCard = ({ data }) => (
       </p>
     </div>
   </article>
-)
+);
 
-export default PostCard
+export default PostCard;

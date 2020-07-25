@@ -1,10 +1,10 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import Img from "gatsby-image"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import React from "react";
+import { Link, graphql } from "gatsby";
+import Img from "gatsby-image";
+import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri";
 
-import Layout from "../components/layout/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout/layout";
+import SEO from "../components/seo";
 
 const Pagination = props => (
   <div className="pagination -post">
@@ -39,20 +39,20 @@ const Pagination = props => (
       )}
     </ul>
   </div>
-)
+);
 
 const Post = ({ data, pageContext }) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html, excerpt } = markdownRemark
+  const { markdownRemark } = data; // data.markdownRemark holds your post data
+  const { frontmatter, html, excerpt } = markdownRemark;
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.fluid
-    : ""
-  const { previous, next } = pageContext
+    : "";
+  const { previous, next } = pageContext;
 
   let props = {
     previous,
     next
-  }
+  };
 
   return (
     <Layout className="page">
@@ -90,10 +90,10 @@ const Post = ({ data, pageContext }) => {
       </article>
       {(previous || next) && <Pagination {...props} />}
     </Layout>
-  )
-}
+  );
+};
 
-export default Post
+export default Post;
 
 export const pageQuery = graphql`
   query BlogPostQuery($id: String!) {
@@ -125,4 +125,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

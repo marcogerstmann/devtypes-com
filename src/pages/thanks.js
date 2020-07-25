@@ -1,9 +1,9 @@
-import React from "react"
-import { Link } from "gatsby"
-import { RiArrowLeftSLine, RiCheckboxCircleLine } from "react-icons/ri"
+import React from "react";
+import { Link } from "gatsby";
+import { RiArrowLeftSLine, RiCheckboxCircleLine } from "react-icons/ri";
 
-import SEO from "../components/seo"
-import Layout from "../components/layout/layout"
+import SEO from "../components/seo";
+import Layout from "../components/layout/layout";
 
 const Thanks = () => (
   <Layout className="thanks-page">
@@ -28,6 +28,6 @@ const Thanks = () => (
       </Link>
     </div>
   </Layout>
-)
+);
 
-export default Thanks
+export default Thanks;

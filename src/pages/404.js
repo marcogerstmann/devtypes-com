@@ -1,9 +1,9 @@
-import React from "react"
-import { Link } from "gatsby"
-import { RiArrowLeftSLine, RiBugLine, RiSkullLine } from "react-icons/ri"
+import React from "react";
+import { Link } from "gatsby";
+import { RiArrowLeftSLine, RiBugLine, RiSkullLine } from "react-icons/ri";
 
-import SEO from "../components/seo"
-import Layout from "../components/layout/layout"
+import SEO from "../components/seo";
+import Layout from "../components/layout/layout";
 
 const NotFound = () => (
   <Layout className="not-found-page">
@@ -36,6 +36,6 @@ const NotFound = () => (
       </Link>
     </div>
   </Layout>
-)
+);
 
-export default NotFound
+export default NotFound;

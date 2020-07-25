@@ -1,10 +1,10 @@
-import React from "react"
-import { graphql, Link } from "gatsby"
-import { RiArrowRightSLine } from "react-icons/ri"
+import React from "react";
+import { graphql, Link } from "gatsby";
+import { RiArrowRightSLine } from "react-icons/ri";
 
-import Layout from "../components/layout/layout"
-import BlogListHome from "../components/blog/blog-list-home"
-import SEO from "../components/seo"
+import Layout from "../components/layout/layout";
+import BlogListHome from "../components/blog/blog-list-home";
+import SEO from "../components/seo";
 
 export const pageQuery = graphql`
   query HomeQuery($id: String!) {
@@ -20,11 +20,11 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
 
 const HomePage = ({ data }) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { markdownRemark } = data; // data.markdownRemark holds your post data
+  const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
       <SEO />
@@ -45,7 +45,7 @@ const HomePage = ({ data }) => {
       </div>
       <BlogListHome />
     </Layout>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

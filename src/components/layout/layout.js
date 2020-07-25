@@ -1,12 +1,12 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 
-import Header from "./header"
-import Logo from "./logo"
-import Navigation from "./navigation"
+import Header from "./header";
+import Logo from "./logo";
+import Navigation from "./navigation";
 
-import "../../assets/scss/style.scss"
-import Footer from "./footer"
+import "../../assets/scss/style.scss";
+import Footer from "./footer";
 
 const query = graphql`
   query LayoutQuery {
@@ -16,11 +16,11 @@ const query = graphql`
       }
     }
   }
-`
+`;
 
 const Layout = ({ children, className }) => {
-  const { site } = useStaticQuery(query)
-  const { siteTitle } = site.siteMetadata
+  const { site } = useStaticQuery(query);
+  const { siteTitle } = site.siteMetadata;
 
   return (
     <div className="primary-container">
@@ -31,7 +31,7 @@ const Layout = ({ children, className }) => {
       <main className={"container " + className}>{children}</main>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

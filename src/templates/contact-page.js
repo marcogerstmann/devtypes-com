@@ -1,9 +1,9 @@
-import React from "react"
-import { graphql } from "gatsby"
-import { RiSendPlane2Line } from "react-icons/ri"
+import React from "react";
+import { graphql } from "gatsby";
+import { RiSendPlane2Line } from "react-icons/ri";
 
-import Layout from "../components/layout/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout/layout";
+import SEO from "../components/seo";
 
 export const pageQuery = graphql`
   query ContactQuery($id: String!) {
@@ -21,11 +21,11 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
 
 const Contact = ({ data }) => {
-  const { markdownRemark, site } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { markdownRemark, site } = data; // data.markdownRemark holds your post data
+  const { frontmatter, html } = markdownRemark;
 
   return (
     <Layout className="contact-page">
@@ -82,7 +82,7 @@ const Contact = ({ data }) => {
         </form>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

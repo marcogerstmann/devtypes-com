@@ -1,8 +1,8 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from "react";
+import { graphql } from "gatsby";
 
-import Layout from "../components/layout/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout/layout";
+import SEO from "../components/seo";
 
 export const pageQuery = graphql`
   query AboutQuery($id: String!) {
@@ -15,10 +15,10 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
 const AboutPage = ({ data }) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html, excerpt } = markdownRemark
+  const { markdownRemark } = data; // data.markdownRemark holds your post data
+  const { frontmatter, html, excerpt } = markdownRemark;
 
   return (
     <Layout className="page">
@@ -28,7 +28,7 @@ const AboutPage = ({ data }) => {
         <article dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default AboutPage
+export default AboutPage;
