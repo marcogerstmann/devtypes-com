@@ -84,7 +84,7 @@
         right: 0;
         top: 100%;
         z-index: 1;
-        background: #421e2f;
+        background: var(--header-nav-bg-color);
         width: 100%;
         max-width: 320px;
         border-radius: 0 0 0 12px;
@@ -102,7 +102,7 @@
       }
 
       a:hover {
-        background-color: #29121d;
+        color: var(--header-nav-hover-color);
       }
     }
   }
