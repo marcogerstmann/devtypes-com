@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
 
-const AboutPage: FunctionComponent<any> = ({ data }) => {
+const Page: FunctionComponent<any> = ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, html, excerpt } = markdownRemark;
 
@@ -19,10 +19,10 @@ const AboutPage: FunctionComponent<any> = ({ data }) => {
   );
 };
 
-export default AboutPage;
+export default Page;
 
 export const pageQuery = graphql`
-  query AboutQuery($id: String!) {
+  query PageQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

@@ -2,7 +2,7 @@
 title: Gain more clarity with Inbox Zero (not only for emails)
 date: 2020-01-26 12:00
 slug: /inbox-zero
-template: blog-post
+template: post
 description: With inbox zero you can gain more clarity to get things done. However, Did you know that it is not only for emails? Learn here how to inbox zero.
 featuredImage: ./inbox-zero.jpg
 ---

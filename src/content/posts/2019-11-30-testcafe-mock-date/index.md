@@ -2,7 +2,7 @@
 title: "Mock Current Date in TestCafe: A concrete example"
 date: 2019-11-30 12:30
 slug: /testcafe-mock-current-date
-template: blog-post
+template: post
 description: Unfortunately TestCafe does not have a built in functionality to mock the current date. Read here how to achieve that anyway.
 featuredImage: ./testcafe-mock-date.jpg
 ---
