@@ -19,7 +19,7 @@ const Layout: FunctionComponent<any> = ({ children, className }) => {
         <Navigation/>
       </Header>
 
-      <main>
+      <main className="container">
         <div className="row">
           <div className="col-md-8">
             <main className={'container ' + className}>{children}</main>
