@@ -1,4 +1,8 @@
-# Privacy Policy
+---
+template: page
+slug: /privacy-policy
+title: Privacy Policy
+---
 
 ## Datenschutz auf einen Blick
 

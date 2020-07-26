@@ -1,4 +1,8 @@
-# Legal
+---
+template: page
+slug: /legal
+title: Legal
+---
 
 ## Angaben gemäß § 5 TMG:
 
