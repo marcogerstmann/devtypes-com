@@ -1,5 +1,5 @@
 ---
-template: home-page
+template: widget
 slug: /
 title: About DevTypes
 ---
