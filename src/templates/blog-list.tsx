@@ -6,37 +6,6 @@ import PostCard from '../components/blog/post-card';
 import SEO from '../components/seo';
 import { FunctionComponent } from 'react';
 
-export const blogListQuery = graphql`
-  query blogListQuery($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
-      limit: $limit
-      skip: $skip
-    ) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            slug
-            title
-            featuredImage {
-              childImageSharp {
-                fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
-                  ...GatsbyImageSharpFluid
-                  ...GatsbyImageSharpFluidLimitPresentationSize
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`;
-
 interface PaginationProps {
   blogSlug: string;
   isFirst: boolean;
@@ -100,7 +69,8 @@ class BlogIndex extends React.Component<any , {}> {
     const posts = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
       .map(edge => <PostCard key={edge.node.id} data={edge.node}/>);
-    let props = {
+
+    const props: PaginationProps = {
       isFirst,
       prevPage,
       numPages,
@@ -127,3 +97,34 @@ class BlogIndex extends React.Component<any , {}> {
 }
 
 export default BlogIndex;
+
+export const blogListQuery = graphql`
+  query blogListQuery($skip: Int!, $limit: Int!) {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { template: { eq: "blog-post" } } }
+      limit: $limit
+      skip: $skip
+    ) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 250)
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            slug
+            title
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
+                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluidLimitPresentationSize
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;

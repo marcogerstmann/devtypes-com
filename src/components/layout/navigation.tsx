@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { FunctionComponent } from 'react';
 import { Link } from 'gatsby';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
@@ -13,12 +12,6 @@ const MenuItems = [
     title: 'About'
   }
 ];
-
-const ListLink: FunctionComponent<any> = props => (
-  <li>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-);
 
 interface State {
   showMenu: boolean;
@@ -40,9 +33,9 @@ class Navigation extends React.Component<{}, State> {
 
   render() {
     const listMenuItems = MenuItems.map((menuItem, index) => (
-      <ListLink key={index} to={menuItem.path}>
-        {menuItem.title}
-      </ListLink>
+      <li key={index}>
+        <Link to={menuItem.path}>{menuItem.title}</Link>
+      </li>
     ));
     return (
       <nav className="site-navigation">

@@ -1,5 +1,5 @@
 ---
-template: index-page
+template: home-page
 slug: /
 title: About DevTypes
 ---

@@ -5,20 +5,8 @@ import Layout from '../components/layout/layout';
 import BlogListHome from '../components/blog/blog-list-home';
 import SEO from '../components/seo';
 
-export const pageQuery = graphql`
-  query HomeQuery($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
-      frontmatter {
-        title
-      }
-    }
-  }
-`;
-
 const HomePage: FunctionComponent<any> = ({ data }) => {
-  const { markdownRemark } = data; // data.markdownRemark holds the post data
+  const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
@@ -42,3 +30,15 @@ const HomePage: FunctionComponent<any> = ({ data }) => {
 };
 
 export default HomePage;
+
+export const pageQuery = graphql`
+  query HomeQuery($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
+      html
+      frontmatter {
+        title
+      }
+    }
+  }
+`;

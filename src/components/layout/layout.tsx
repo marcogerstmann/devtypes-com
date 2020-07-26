@@ -7,16 +7,6 @@ import Footer from './footer';
 import '../../assets/scss/style.scss';
 import { FunctionComponent } from 'react';
 
-const query = graphql`
-  query LayoutQuery {
-    site {
-      siteMetadata {
-        siteTitle: title
-      }
-    }
-  }
-`;
-
 const Layout: FunctionComponent<any> = ({ children, className }) => {
   const { site } = useStaticQuery(query);
   const { siteTitle } = site.siteMetadata;
@@ -34,3 +24,13 @@ const Layout: FunctionComponent<any> = ({ children, className }) => {
 };
 
 export default Layout;
+
+const query = graphql`
+  query LayoutQuery {
+    site {
+      siteMetadata {
+        siteTitle: title
+      }
+    }
+  }
+`;

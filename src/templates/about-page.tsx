@@ -4,20 +4,8 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
 
-export const pageQuery = graphql`
-  query AboutQuery($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
-      excerpt(pruneLength: 140)
-      frontmatter {
-        title
-      }
-    }
-  }
-`;
 const AboutPage: FunctionComponent<any> = ({ data }) => {
-  const { markdownRemark } = data; // data.markdownRemark holds the post data
+  const { markdownRemark } = data;
   const { frontmatter, html, excerpt } = markdownRemark;
 
   return (
@@ -32,3 +20,16 @@ const AboutPage: FunctionComponent<any> = ({ data }) => {
 };
 
 export default AboutPage;
+
+export const pageQuery = graphql`
+  query AboutQuery($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
+      html
+      excerpt(pruneLength: 140)
+      frontmatter {
+        title
+      }
+    }
+  }
+`;

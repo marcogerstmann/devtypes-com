@@ -1,11 +1,10 @@
 import * as React from 'react';
+import { FunctionComponent } from 'react';
 import { Link, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { RiArrowRightLine, RiArrowLeftLine } from 'react-icons/ri';
-
 import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
-import { FunctionComponent } from 'react';
 
 const Pagination: FunctionComponent<any> = props => (
   <div className="pagination -post">
@@ -43,7 +42,7 @@ const Pagination: FunctionComponent<any> = props => (
 );
 
 const Post: FunctionComponent<any> = ({ data, pageContext }) => {
-  const { markdownRemark } = data; // data.markdownRemark holds your post data
+  const { markdownRemark } = data;
   const { frontmatter, html, excerpt } = markdownRemark;
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.fluid
