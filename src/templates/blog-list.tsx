@@ -1,10 +1,10 @@
-import React from 'react';
+import * as React from 'react';
 import { Link, graphql } from 'gatsby';
 import { RiArrowRightLine, RiArrowLeftLine } from 'react-icons/ri';
-
 import Layout from '../components/layout/layout';
 import PostCard from '../components/blog/post-card';
 import SEO from '../components/seo';
+import { FunctionComponent } from 'react';
 
 export const blogListQuery = graphql`
   query blogListQuery($skip: Int!, $limit: Int!) {
@@ -36,7 +36,18 @@ export const blogListQuery = graphql`
     }
   }
 `;
-const Pagination = props => (
+
+interface PaginationProps {
+  blogSlug: string;
+  isFirst: boolean;
+  isLast: boolean;
+  prevPage: string;
+  nextPage: string;
+  numPages: number;
+  currentPage: number;
+}
+
+const Pagination: FunctionComponent<PaginationProps> = props => (
   <div className="pagination">
     <ul>
       {!props.isFirst && (
@@ -73,7 +84,7 @@ const Pagination = props => (
   </div>
 );
 
-class BlogIndex extends React.Component {
+class BlogIndex extends React.Component<any , {}> {
   render() {
     const { data } = this.props;
     const { currentPage, numPages } = this.props.pageContext;

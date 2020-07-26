@@ -1,12 +1,13 @@
-import React from 'react';
+import * as React from 'react';
 import { Link, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { RiArrowRightLine, RiArrowLeftLine } from 'react-icons/ri';
 
 import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
+import { FunctionComponent } from 'react';
 
-const Pagination = props => (
+const Pagination: FunctionComponent<any> = props => (
   <div className="pagination -post">
     <ul>
       {props.previous && props.previous.frontmatter.template === 'blog-post' && (
@@ -41,7 +42,7 @@ const Pagination = props => (
   </div>
 );
 
-const Post = ({ data, pageContext }) => {
+const Post: FunctionComponent<any> = ({ data, pageContext }) => {
   const { markdownRemark } = data; // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark;
   const Image = frontmatter.featuredImage
@@ -73,8 +74,6 @@ const Post = ({ data, pageContext }) => {
           {Image ? (
             <Img
               fluid={Image}
-              objectFit="cover"
-              objectPosition="50% 50%"
               alt={frontmatter.title + ' - Featured image'}
               className="featured-image"
             />

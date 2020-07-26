@@ -1,7 +1,7 @@
-import React from 'react';
+import * as React from 'react';
+import { FunctionComponent } from 'react';
 import { graphql, Link } from 'gatsby';
 import { RiArrowRightSLine } from 'react-icons/ri';
-
 import Layout from '../components/layout/layout';
 import BlogListHome from '../components/blog/blog-list-home';
 import SEO from '../components/seo';
@@ -22,8 +22,8 @@ export const pageQuery = graphql`
   }
 `;
 
-const HomePage = ({ data }) => {
-  const { markdownRemark } = data; // data.markdownRemark holds your post data
+const HomePage: FunctionComponent<any> = ({ data }) => {
+  const { markdownRemark } = data; // data.markdownRemark holds the post data
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout>

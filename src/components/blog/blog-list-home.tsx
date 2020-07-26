@@ -1,10 +1,10 @@
-import React from 'react';
+import * as React from 'react';
+import { FunctionComponent } from 'react';
 import { Link, StaticQuery, graphql } from 'gatsby';
 import { RiArrowDownLine, RiArrowRightSLine } from 'react-icons/ri';
-
 import PostCard from './post-card';
 
-const PostMaker = ({ data }) => (
+const PostMaker: FunctionComponent<any> = ({ data }) => (
   <section className="home-posts">
     <h2>
       Latest in <strong>Blog</strong>{' '}

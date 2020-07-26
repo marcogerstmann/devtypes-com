@@ -1,8 +1,9 @@
-import React from 'react';
+import * as React from 'react';
+import { FunctionComponent } from 'react';
 import { Link } from 'gatsby';
 import { RiHeart2Line } from 'react-icons/ri';
 
-const Footer = () => (
+const Footer: FunctionComponent = () => (
   <footer className="site-footer">
     <div className="container">
       <p>
