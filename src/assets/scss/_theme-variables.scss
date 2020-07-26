@@ -5,29 +5,24 @@ $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
 :root {
-  --font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
-    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  --font-family-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
-    monospace;
+  --font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  --font-family-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+
   --font-size-small: 12px;
+  --font-size-widget-title: 24px;
 
   --primary-color: #5c2941;
-  --header-bg: #5c2941;
 
-  --home-link-color: #a1613f;
-  --home-link-hover-color: var(--primary-color);
+  --header-brand-color: #222;
+  --header-nav-color: #000;
+  --header-nav-hover-color: #999;
+
+  --link-color-main: #a1613f;
+  --link-color-main-hover: var(--primary-color);
+  --link-color-post: #0f070b;
 
   --button-color: #e5c3d3;
   --button-alternate-color: #5c2941;
 
-  --post-link-color: #0f070b;
-
-  --nav-link-hover-bg: #111;
   --text-color-meta: rgba(0, 0, 0, 0.5);
-
-  --label-text: rgba(0, 0, 0, 0.5);
-  --input-focus-border: #83aaac;
-
-  // CSS Grid Utility
-  --grid-gap: 30px;
 }

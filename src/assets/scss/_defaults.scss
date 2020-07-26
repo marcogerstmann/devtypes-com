@@ -3,27 +3,33 @@
 *:before {
   box-sizing: border-box;
 }
+
 html,
 body {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: var(--font-family);
-  font-size: 18px;
+  font-size: 17px;
 }
+
 code {
   font-family: var(--font-family-mono);
 }
+
 main {
   p {
-    line-height: 1.5;
+    line-height: 32px;
   }
 }
+
 a {
-  color: var(--home-link-color);
+  color: var(--link-color-main);
   text-decoration: none;
+
   &:hover {
-    color: var(--home-link-hover-color);
+    color: var(--link-color-main-hover);
   }
 }

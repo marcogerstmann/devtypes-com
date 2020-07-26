@@ -1,4 +1,5 @@
-import React from 'react';
+import * as React from 'react';
+import { FunctionComponent } from 'react';
 import { Link } from 'gatsby';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
@@ -13,13 +14,17 @@ const MenuItems = [
   }
 ];
 
-const ListLink = props => (
+const ListLink: FunctionComponent<any> = props => (
   <li>
     <Link to={props.to}>{props.children}</Link>
   </li>
 );
 
-class Navigation extends React.Component {
+interface State {
+  showMenu: boolean;
+}
+
+class Navigation extends React.Component<{}, State> {
   constructor(props) {
     super(props);
     this.state = { showMenu: false };

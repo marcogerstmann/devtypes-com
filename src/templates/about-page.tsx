@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from 'react';
+import { FunctionComponent } from 'react';
 import { graphql } from 'gatsby';
-
 import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
 
@@ -16,8 +16,8 @@ export const pageQuery = graphql`
     }
   }
 `;
-const AboutPage = ({ data }) => {
-  const { markdownRemark } = data; // data.markdownRemark holds your post data
+const AboutPage: FunctionComponent<any> = ({ data }) => {
+  const { markdownRemark } = data; // data.markdownRemark holds the post data
   const { frontmatter, html, excerpt } = markdownRemark;
 
   return (

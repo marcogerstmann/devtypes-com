@@ -1,12 +1,11 @@
-import React from 'react';
+import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-
 import Header from './header';
 import Logo from './logo';
 import Navigation from './navigation';
-
-import '../../assets/scss/style.scss';
 import Footer from './footer';
+import '../../assets/scss/style.scss';
+import { FunctionComponent } from 'react';
 
 const query = graphql`
   query LayoutQuery {
@@ -18,7 +17,7 @@ const query = graphql`
   }
 `;
 
-const Layout = ({ children, className }) => {
+const Layout: FunctionComponent<any> = ({ children, className }) => {
   const { site } = useStaticQuery(query);
   const { siteTitle } = site.siteMetadata;
 
