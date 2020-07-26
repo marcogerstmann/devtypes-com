@@ -75,6 +75,7 @@ module.exports = {
         icon: `static/assets/devtypes-logo.png`
       }
     },
-    'gatsby-plugin-offline'
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-catch-links`
   ]
 };

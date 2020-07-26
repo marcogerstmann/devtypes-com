@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { FunctionComponent } from 'react';
-import { graphql, Link } from 'gatsby';
-import { RiArrowRightSLine } from 'react-icons/ri';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout/layout';
 import BlogListHome from '../components/blog/blog-list-home';
 import SEO from '../components/seo';
@@ -13,10 +12,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        cta {
-          ctaText
-          ctaLink
-        }
       }
     }
   }
@@ -39,12 +34,6 @@ const HomePage: FunctionComponent<any> = ({ data }) => {
               className="description"
               dangerouslySetInnerHTML={{ __html: html }}
             />
-            <Link to={frontmatter.cta.ctaLink} className="button">
-              {frontmatter.cta.ctaText}
-              <span className="icon -right">
-              <RiArrowRightSLine/>
-            </span>
-            </Link>
           </div>
         </div>
       </div>
