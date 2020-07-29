@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { FunctionComponent } from 'react';
-import { graphql } from 'gatsby';
 import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
 
@@ -20,16 +19,3 @@ const Page: FunctionComponent<any> = ({ data }) => {
 };
 
 export default Page;
-
-export const pageQuery = graphql`
-  query PageQuery($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
-      excerpt(pruneLength: 140)
-      frontmatter {
-        title
-      }
-    }
-  }
-`;

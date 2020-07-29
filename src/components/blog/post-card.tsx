@@ -3,13 +3,20 @@ import { FunctionComponent } from 'react';
 import { Link } from 'gatsby';
 import Img from 'gatsby-image';
 
-const PostCard: FunctionComponent<any> = ({ data }) => (
+interface Props {
+  title: string;
+  slug: string;
+  date: Date;
+  featuredImage: any;
+}
+
+const PostCard: FunctionComponent<Props> = props => (
   <article className="post-card">
-    {data.frontmatter.featuredImage ? (
-      <Link to={data.frontmatter.slug}>
+    {props.featuredImage ? (
+      <Link to={props.slug}>
         <Img
-          fluid={data.frontmatter.featuredImage.childImageSharp.fluid}
-          alt={data.frontmatter.title + ' - Featured image'}
+          fluid={props.featuredImage.childImageSharp.fluid}
+          alt={props.title + ' - Featured image'}
           className="featured-image"
         />
       </Link>
@@ -18,10 +25,10 @@ const PostCard: FunctionComponent<any> = ({ data }) => (
     )}
     <div className="post-content">
       <h2 className="title">
-        <Link to={data.frontmatter.slug}>{data.frontmatter.title}</Link>
+        <Link to={props.slug}>{props.title}</Link>
       </h2>
       <p className="meta">
-        <time>{data.frontmatter.date}</time>
+        <time>{props.date}</time>
       </p>
     </div>
   </article>

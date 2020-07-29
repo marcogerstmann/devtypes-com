@@ -17,7 +17,7 @@ So I spent a decent amount of time finding a way to mock the current date with T
 
 For this little tutorial, please refer to the following basic folder structure, where the testcafe folder is placed inside an Angular project:
 
-```
+```text
 .
 +-- testcafe
 |   +-- scripts
@@ -33,7 +33,7 @@ The important files for this tutorial are `mockDate.js` and `.testcaferc.json`.
 
 First of all you need to install the packages for TestCafe itself and a package called "mockdate".
 
-```
+```text
 npm install testcafe mockdate --save-dev``
 ```
 
